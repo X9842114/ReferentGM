@@ -1,21 +1,17 @@
 import { isDiscordConfigured, signIn } from "@/auth";
 import { DiscordSubmitButton } from "@/components/auth/discord-submit-button";
 
-export function DiscordLoginButton() {
+export function DiscordLoginButton({ enabled }: { enabled: boolean }) {
   return (
     <form
       action={async () => {
         "use server";
-        if (!isDiscordConfigured) {
-          // Sans clés OAuth : session invitée pour accéder au dashboard
-          await signIn("guest", { redirectTo: "/dashboard?welcome=1" });
-          return;
-        }
+        if (!isDiscordConfigured) return;
         await signIn("discord", { redirectTo: "/dashboard?welcome=1" });
       }}
       className="w-full"
     >
-      <DiscordSubmitButton />
+      <DiscordSubmitButton disabled={!enabled} />
     </form>
   );
 }

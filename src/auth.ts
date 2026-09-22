@@ -1,25 +1,17 @@
 import NextAuth from "next-auth";
-import Credentials from "next-auth/providers/credentials";
 import Discord from "next-auth/providers/discord";
 import type { JWT } from "next-auth/jwt";
 import { cache } from "react";
-
-/** Mêmes variables qu’Admin-GameMaster (+ fallback AUTH_DISCORD_*) */
-const DISCORD_APPLICATION_ID = "1534740491814305974";
 
 function validDiscordApplicationId(value?: string) {
   const id = value?.trim() ?? "";
   return /^\d{17,20}$/.test(id) ? id : null;
 }
 
-/**
- * L'identifiant OAuth Discord est public. Le fallback évite de transmettre
- * le placeholder `[SENSITIVE]` si une variable Vercel a été mal configurée.
- */
 const discordClientId =
   validDiscordApplicationId(process.env.DISCORD_CLIENT_ID) ||
   validDiscordApplicationId(process.env.AUTH_DISCORD_ID) ||
-  DISCORD_APPLICATION_ID;
+  "";
 const discordClientSecret =
   process.env.DISCORD_CLIENT_SECRET?.trim() ||
   process.env.AUTH_DISCORD_SECRET?.trim() ||
@@ -54,23 +46,6 @@ if (discordReady) {
   );
 }
 
-// Fallback invité si Discord n’est pas configuré
-providers.push(
-  Credentials({
-    id: "guest",
-    name: "Guest",
-    credentials: {},
-    async authorize() {
-      return {
-        id: "guest-user",
-        name: "Invité RefGM",
-        email: "guest@refgm.local",
-        image: null,
-      };
-    },
-  })
-);
-
 const nextAuth = NextAuth({
   trustHost: true,
   providers,
@@ -80,6 +55,7 @@ const nextAuth = NextAuth({
   },
   callbacks: {
     async jwt({ token, user, account }) {
+      if (token.sub === "guest-user" || user?.id === "guest-user") return null;
       if (user) {
         token.sub = user.id;
         if (user.name) token.name = user.name;

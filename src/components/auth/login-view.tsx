@@ -57,7 +57,7 @@ export function LoginView({
         <p className="mt-4 text-[11px] leading-relaxed text-white/32">
           {discordConfigured
             ? "Un référent valide ton accès la première fois."
-            : "OAuth pas encore configuré : ouverture en mode invité."}
+            : "Discord n’est pas configuré. Il faut DISCORD_CLIENT_ID et DISCORD_CLIENT_SECRET dans le .env, puis redémarrer."}
         </p>
       </motion.div>
     </div>

@@ -120,7 +120,7 @@ async function persistAccountSession() {
 
 /**
  * Crée le compte s’il n’existe pas.
- * - Invité / CVE → APPROVED + DEVELOPPEUR
+ * - Compte Discord développeur listé → APPROVED + DEVELOPPEUR
  * - Sinon → PENDING jusqu’à validation référent
  */
 export async function ensureAccount(input: {
@@ -161,11 +161,10 @@ export async function ensureAccount(input: {
     return patched;
   }
 
-  const isGuest = input.userId === "guest-user";
   let status: AccountStatus = "PENDING";
   let grade: GradeId = DEFAULT_GRADE;
 
-  if (isGuest || bypass) {
+  if (bypass) {
     status = "APPROVED";
     grade = CVE_BYPASS_GRADE;
   } else {

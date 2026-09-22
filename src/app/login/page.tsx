@@ -22,7 +22,7 @@ export default async function LoginPage({
 
   return (
     <LoginView discordConfigured={discordConfigured} authError={params.error}>
-      <DiscordLoginButton />
+      <DiscordLoginButton enabled={discordConfigured} />
     </LoginView>
   );
 }
