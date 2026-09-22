@@ -47,5 +47,5 @@ AGENTS.md
 CLAUDE.md
 
 .vercel
-.env*
+!.env.example
 /data/
