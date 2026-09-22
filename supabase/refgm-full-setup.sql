@@ -1,0 +1,2 @@
+-- Tout le schéma est dans supabase/refgm.sql
+-- Ouvre ce fichier, copie tout, colle dans Supabase → SQL Editor → Run.

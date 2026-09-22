@@ -1,0 +1,790 @@
+{
+  "rouge": [
+    {
+      "id": "rouge-weapon_compactrifle",
+      "name": "FUSIL COMPACT",
+      "wikiId": "WEAPON_COMPACTRIFLE",
+      "category": "ARMES",
+      "price": 2000,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-component_at_ar_supp",
+      "name": "SILENCIEUX FUSIL D’ASSAUT",
+      "wikiId": "COMPONENT_AT_AR_SUPP",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 30,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-ammo_pistol",
+      "name": "1000x PISTOLET",
+      "wikiId": "AMMO_PISTOL",
+      "category": "ACCESSOIRES",
+      "price": 50,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-oilrigplan",
+      "name": "PLAN DE LA PLATFORME PÉTROLIÈRE",
+      "wikiId": "OILRIGPLAN",
+      "category": "DROGUES",
+      "price": 80,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-weapon_assaultrifle",
+      "name": "FUSIL D’ASSAUT",
+      "wikiId": "WEAPON_ASSAULTRIFLE",
+      "category": "ARMES",
+      "price": 2750,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-component_ceramicpistol_supp",
+      "name": "SILENCIEUX PISTOLET CÉRAMIQUE",
+      "wikiId": "COMPONENT_CERAMICPISTOL_SUPP",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 18,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-ammo_smg",
+      "name": "1000x SMG",
+      "wikiId": "AMMO_SMG",
+      "category": "ACCESSOIRES",
+      "price": 150,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-cocaine",
+      "name": "1T COCAÏNE",
+      "wikiId": "COCAINE",
+      "category": "DROGUES",
+      "price": 269,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-weapon_sg552",
+      "name": "SBR 52",
+      "wikiId": "WEAPON_SG552",
+      "category": "ARMES",
+      "price": 3000,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-component_at_pi_supp",
+      "name": "SILENCIEUX PISTOLET",
+      "wikiId": "COMPONENT_AT_PI_SUPP",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 18,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-ammo_shotgun",
+      "name": "500x FUSIL À POMPE",
+      "wikiId": "AMMO_SHOTGUN",
+      "category": "ACCESSOIRES",
+      "price": 200,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-tranq",
+      "name": "1T TRANQ",
+      "wikiId": "TRANQ",
+      "category": "DROGUES",
+      "price": 283,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-weapon_gusenberg",
+      "name": "SULFATEUSE GUSENBERG",
+      "wikiId": "WEAPON_GUSENBERG",
+      "category": "ARMES",
+      "price": 2500,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-component_at_scope_medium",
+      "name": "VISEUR FUSIL D’ASSAUT",
+      "wikiId": "COMPONENT_AT_SCOPE_MEDIUM",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 30,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-ammo_rifle",
+      "name": "500x FUSIL D’ASSAUT",
+      "wikiId": "AMMO_RIFLE",
+      "category": "ACCESSOIRES",
+      "price": 250,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-bluemeth",
+      "name": "1T METH BLEU",
+      "wikiId": "BLUEMETH",
+      "category": "DROGUES",
+      "price": 259,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-weapon_ump45",
+      "name": "SMG 45",
+      "wikiId": "WEAPON_UMP45",
+      "category": "ARMES",
+      "price": 2750,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-component_heavyrifle_sight_01",
+      "name": "VISEUR FUSIL LOURD",
+      "wikiId": "COMPONENT_HEAVYRIFLE_SIGHT_01",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 30,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-ammo_mg",
+      "name": "500x MACHINE GUN",
+      "wikiId": "AMMO_MG",
+      "category": "ACCESSOIRES",
+      "price": 250,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-weed",
+      "name": "1T WEED",
+      "wikiId": "WEED",
+      "category": "DROGUES",
+      "price": 323,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-weapon_heavyrifle",
+      "name": "FUSIL LOURD",
+      "wikiId": "WEAPON_HEAVYRIFLE",
+      "category": "ARMES",
+      "price": 2800,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-component_at_scope_small_smg_mk2",
+      "name": "LUNETTE MOYENNE SMG",
+      "wikiId": "COMPONENT_AT_SCOPE_SMALL_SMG_MK2",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 25,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-kevlar2",
+      "name": "GPB",
+      "wikiId": "KEVLAR2",
+      "category": "ACCESSOIRES",
+      "price": 150,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-purplehaze",
+      "name": "1T PURPLE",
+      "wikiId": "PURPLEHAZE",
+      "category": "DROGUES",
+      "price": 323,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-weapon_sawnoffshotgun",
+      "name": "FUSIL À CANON SCIÉ",
+      "wikiId": "WEAPON_SAWNOFFSHOTGUN",
+      "category": "ARMES",
+      "price": 1300,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-pistolscope",
+      "name": "VISEUR PISTOLET",
+      "wikiId": "PISTOLSCOPE",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 18,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-zipties",
+      "name": "SERFLEX",
+      "wikiId": "ZIPTIES",
+      "category": "ACCESSOIRES",
+      "price": 5,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-crack",
+      "name": "1T CRACK",
+      "wikiId": "CRACK",
+      "category": "DROGUES",
+      "price": 259,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-weapon_spas12",
+      "name": "STRIKER 12",
+      "wikiId": "WEAPON_SPAS12",
+      "category": "ARMES",
+      "price": 1300,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-component_at_pi_rail",
+      "name": "LUNETTE PISTOLET",
+      "wikiId": "COMPONENT_AT_PI_RAIL",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 18,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-headbag",
+      "name": "SAC",
+      "wikiId": "HEADBAG",
+      "category": "ACCESSOIRES",
+      "price": 100,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-_pochonmexicana",
+      "name": "1T MEXICANA",
+      "wikiId": "_POCHONMEXICANA",
+      "category": "DROGUES",
+      "price": 259,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-weapon_pumpshotgun",
+      "name": "FUSIL À POMPE",
+      "wikiId": "WEAPON_PUMPSHOTGUN",
+      "category": "ARMES",
+      "price": 1500,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-component_at_scope_macro",
+      "name": "LUNETTE SMG",
+      "wikiId": "COMPONENT_AT_SCOPE_MACRO",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 25,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-fakeplate",
+      "name": "FAUSSE PLAQUE D'IMMATRICULATION",
+      "wikiId": "FAKEPLATE",
+      "category": "ACCESSOIRES",
+      "price": 6,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-_ladanum",
+      "name": "1T LADANUM",
+      "wikiId": "_LADANUM",
+      "category": "DROGUES",
+      "price": 352,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-weapon_assaultshotgun",
+      "name": "FUSIL À POMPE D’ASSAUT",
+      "wikiId": "WEAPON_ASSAULTSHOTGUN",
+      "category": "ARMES",
+      "price": 1300,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-component_at_scope_macro_02_smg_mk2",
+      "name": "PETITE LUNETTE SMG",
+      "wikiId": "COMPONENT_AT_SCOPE_MACRO_02_SMG_MK2",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 25,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-opium",
+      "name": "1T OPIUM",
+      "wikiId": "OPIUM",
+      "category": "DROGUES",
+      "price": 259,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-weapon_dbshotgun",
+      "name": "FUSIL À DOUBLE CANON",
+      "wikiId": "WEAPON_DBSHOTGUN",
+      "category": "ARMES",
+      "price": 1000,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-component_minismg_clip_02",
+      "name": "CHARGEUR GRANDE CAPACITÉ MINISMG",
+      "wikiId": "COMPONENT_MINISMG_CLIP_02",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 500,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-weapon_uzitactic",
+      "name": "MX TACTIC",
+      "wikiId": "WEAPON_UZITACTIC",
+      "category": "ARMES",
+      "price": 625,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-component_tecspistol_clip_02",
+      "name": "GRAND CHARGEUR TECPISTOL",
+      "wikiId": "COMPONENT_TECSPISTOL_CLIP_02",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 500,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-weapon_microsmg",
+      "name": "MICRO SMG",
+      "wikiId": "WEAPON_MICROSMG",
+      "category": "ARMES",
+      "price": 550,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-component_weapon_assaultrifle_clip_custom",
+      "name": "CHARGEUR ASSAULTRIFLE",
+      "wikiId": "COMPONENT_WEAPON_ASSAULTRIFLE_CLIP_CUSTOM",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 750,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-weapon_machinepistol",
+      "name": "PISTOLET-MITRAILLEUR",
+      "wikiId": "WEAPON_MACHINEPISTOL",
+      "category": "ARMES",
+      "price": 625,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-component_colt_clip_02",
+      "name": "CHARGEUR COLT",
+      "wikiId": "COMPONENT_COLT_CLIP_02",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 225,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-weapon_mac10",
+      "name": "PHANTOM 10",
+      "wikiId": "WEAPON_MAC10",
+      "category": "ARMES",
+      "price": 550,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-component_combatpistol_clip_02",
+      "name": "CHARGEUR GRANDE CAPACITÉ PISTOLET COMBAT",
+      "wikiId": "COMPONENT_COMBATPISTOL_CLIP_02",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 225,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-weapon_tecpstol",
+      "name": "TACTICAL SMG",
+      "wikiId": "WEAPON_TECPSTOL",
+      "category": "ARMES",
+      "price": 700,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-component_pistol50_clip_02",
+      "name": "CHARGEUR GRANDE CAPACITÉ PISTOLET 50",
+      "wikiId": "COMPONENT_PISTOL50_CLIP_02",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 225,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-weapon_minismg",
+      "name": "MINI SMG",
+      "wikiId": "WEAPON_MINISMG",
+      "category": "ARMES",
+      "price": 550,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-component_snspistol_clip_02",
+      "name": "CHARGEUR GRANDE CAPACITÉ SNS PISTOL",
+      "wikiId": "COMPONENT_SNSPISTOL_CLIP_02",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 225,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-weapon_snspistol",
+      "name": "PISTOLET SNS",
+      "wikiId": "WEAPON_SNSPISTOL",
+      "category": "ARMES",
+      "price": 49,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-component_ceramicpistol_clip_02",
+      "name": "CHARGEUR GRANDE CAPACITÉ PISTOLET CÉRAMIQUE",
+      "wikiId": "COMPONENT_CERAMICPISTOL_CLIP_02",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 225,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-weapon_pistol",
+      "name": "PISTOLET",
+      "wikiId": "WEAPON_PISTOL",
+      "category": "ARMES",
+      "price": 89,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-component_heavypistol_clip_02",
+      "name": "CHARGEUR GRANDE CAPACITÉ PISTOLET LOURD",
+      "wikiId": "COMPONENT_HEAVYPISTOL_CLIP_02",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 225,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-weapon_heavypistol",
+      "name": "PISTOLET LOURD",
+      "wikiId": "WEAPON_HEAVYPISTOL",
+      "category": "ARMES",
+      "price": 110,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-component_pistol_mk2_clip_02",
+      "name": "CHARGEUR GRANDE CAPACITÉ PISTOLET MK2",
+      "wikiId": "COMPONENT_PISTOL_MK2_CLIP_02",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 225,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-weapon_pistol_mk2",
+      "name": "PISTOLET MKII",
+      "wikiId": "WEAPON_PISTOL_MK2",
+      "category": "ARMES",
+      "price": 200,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-component_pistol_clip_02",
+      "name": "CHARGEUR PISTOLET",
+      "wikiId": "COMPONENT_PISTOL_CLIP_02",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 225,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-weapon_pistol50",
+      "name": "PISTOLET CAL.50",
+      "wikiId": "WEAPON_PISTOL50",
+      "category": "ARMES",
+      "price": 110,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-component_compactrifle_clip_02",
+      "name": "CHARGEUR GRANDE CAPACITÉ COMPACTRIFLE",
+      "wikiId": "COMPONENT_COMPACTRIFLE_CLIP_02",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 750,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-weapon_combatpistol",
+      "name": "PISTOLET DE COMBAT",
+      "wikiId": "WEAPON_COMBATPISTOL",
+      "category": "ARMES",
+      "price": 110,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-component_assaultrifle_clip_02",
+      "name": "CHARGEUR GRANDE CAPACITÉ FUSIL D’ASSAUT",
+      "wikiId": "COMPONENT_ASSAULTRIFLE_CLIP_02",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 750,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-weapon_snspico",
+      "name": "SNS PICO",
+      "wikiId": "WEAPON_SNSPICO",
+      "category": "ARMES",
+      "price": 49,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-component_gusenberg_clip_02",
+      "name": "CHARGEUR GRANDE CAPACITÉ THOMPSON",
+      "wikiId": "COMPONENT_GUSENBERG_CLIP_02",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 750,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-weapon_p88",
+      "name": "PISTOLET COMPACT",
+      "wikiId": "WEAPON_P88",
+      "category": "ARMES",
+      "price": 110,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-component_sg552_clip_02",
+      "name": "CHARGEUR SG552",
+      "wikiId": "COMPONENT_SG552_CLIP_02",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 750,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-component_heavyrifle_clip_02",
+      "name": "GRAND CHARGEUR FUSIL LOURD",
+      "wikiId": "COMPONENT_HEAVYRIFLE_CLIP_02",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 750,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-component_assaultshotgun_clip_02",
+      "name": "CHARGEUR GRANDE CAPACITÉ FUSIL À POMPE",
+      "wikiId": "COMPONENT_ASSAULTSHOTGUN_CLIP_02",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 750,
+      "metal": "rouge"
+    },
+    {
+      "id": "rouge-component_smg_mk2_clip_02",
+      "name": "CHARGEUR GRANDE CAPACITÉ SMG MK2",
+      "wikiId": "COMPONENT_SMG_MK2_CLIP_02",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 500,
+      "metal": "rouge"
+    }
+  ],
+  "bleu": [
+    {
+      "id": "bleu-weapon_microsmg",
+      "name": "MICRO SMG",
+      "wikiId": "WEAPON_MICROSMG",
+      "category": "ARMES",
+      "price": 650,
+      "metal": "bleu"
+    },
+    {
+      "id": "bleu-component_ceramicpistol_supp",
+      "name": "SILENCIEUX PISTOLET CÉRAMIQUE",
+      "wikiId": "COMPONENT_CERAMICPISTOL_SUPP",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 40,
+      "metal": "bleu"
+    },
+    {
+      "id": "bleu-ammo_pistol",
+      "name": "1000x PISTOLET",
+      "wikiId": "AMMO_PISTOL",
+      "category": "ACCESSOIRES",
+      "price": 100,
+      "metal": "bleu"
+    },
+    {
+      "id": "bleu-_pochonsporex",
+      "name": "1T SPOREX",
+      "wikiId": "_POCHONSPOREX",
+      "category": "DROGUES",
+      "price": 283,
+      "metal": "bleu"
+    },
+    {
+      "id": "bleu-weapon_vector_chr",
+      "name": "VORTEX SMG",
+      "wikiId": "WEAPON_VECTOR_CHR",
+      "category": "ARMES",
+      "price": 650,
+      "metal": "bleu"
+    },
+    {
+      "id": "bleu-component_at_pi_supp",
+      "name": "SILENCIEUX PISTOLET",
+      "wikiId": "COMPONENT_AT_PI_SUPP",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 40,
+      "metal": "bleu"
+    },
+    {
+      "id": "bleu-ammo_smg",
+      "name": "1000x SMG",
+      "wikiId": "AMMO_SMG",
+      "category": "ACCESSOIRES",
+      "price": 300,
+      "metal": "bleu"
+    },
+    {
+      "id": "bleu-meth",
+      "name": "1T METH BLANCHE",
+      "wikiId": "METH",
+      "category": "DROGUES",
+      "price": 323,
+      "metal": "bleu"
+    },
+    {
+      "id": "bleu-weapon_snspistol",
+      "name": "PISTOLET SNS",
+      "wikiId": "WEAPON_SNSPISTOL",
+      "category": "ARMES",
+      "price": 100,
+      "metal": "bleu"
+    },
+    {
+      "id": "bleu-w_sb_vector_chr_supp",
+      "name": "SILENCIEUX VORTEX",
+      "wikiId": "W_SB_VECTOR_CHR_SUPP",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 50,
+      "metal": "bleu"
+    },
+    {
+      "id": "bleu-zipties",
+      "name": "SERFLEX",
+      "wikiId": "ZIPTIES",
+      "category": "ACCESSOIRES",
+      "price": 10,
+      "metal": "bleu"
+    },
+    {
+      "id": "bleu-_pochonblacktrip",
+      "name": "1T BLACKTRIP",
+      "wikiId": "_POCHONBLACKTRIP",
+      "category": "DROGUES",
+      "price": 259,
+      "metal": "bleu"
+    },
+    {
+      "id": "bleu-weapon_pistol",
+      "name": "PISTOLET ( Berreta )",
+      "wikiId": "WEAPON_PISTOL",
+      "category": "ARMES",
+      "price": 200,
+      "metal": "bleu"
+    },
+    {
+      "id": "bleu-component_at_scope_small_smg_mk2",
+      "name": "LUNETTE MOYENNE SMG",
+      "wikiId": "COMPONENT_AT_SCOPE_SMALL_SMG_MK2",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 50,
+      "metal": "bleu"
+    },
+    {
+      "id": "bleu-headbag",
+      "name": "SAC",
+      "wikiId": "HEADBAG",
+      "category": "ACCESSOIRES",
+      "price": 200,
+      "metal": "bleu"
+    },
+    {
+      "id": "bleu-heroine",
+      "name": "1T HÉROÏNE",
+      "wikiId": "HEROINE",
+      "category": "DROGUES",
+      "price": 259,
+      "metal": "bleu"
+    },
+    {
+      "id": "bleu-weapon_pistol50",
+      "name": "PISTOLET CAL.50",
+      "wikiId": "WEAPON_PISTOL50",
+      "category": "ARMES",
+      "price": 250,
+      "metal": "bleu"
+    },
+    {
+      "id": "bleu-w_sb_vector_chr_scope",
+      "name": "LUNETTE VORTEX",
+      "wikiId": "W_SB_VECTOR_CHR_SCOPE",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 50,
+      "metal": "bleu"
+    },
+    {
+      "id": "bleu-fakeplate",
+      "name": "FAUSSE PLAQUE D'IMMATRICULATION",
+      "wikiId": "FAKEPLATE",
+      "category": "ACCESSOIRES",
+      "price": 15,
+      "metal": "bleu"
+    },
+    {
+      "id": "bleu-_ladanum",
+      "name": "1T LADANUM",
+      "wikiId": "_LADANUM",
+      "category": "DROGUES",
+      "price": 352,
+      "metal": "bleu"
+    },
+    {
+      "id": "bleu-weapon_combatpistol",
+      "name": "PISTOLET DE COMBAT ( Glock )",
+      "wikiId": "WEAPON_COMBATPISTOL",
+      "category": "ARMES",
+      "price": 250,
+      "metal": "bleu"
+    },
+    {
+      "id": "bleu-component_at_scope_macro",
+      "name": "LUNETTE SMG",
+      "wikiId": "COMPONENT_AT_SCOPE_MACRO",
+      "category": "ACCESSOIRES_ARMES",
+      "price": 50,
+      "metal": "bleu"
+    },
+    {
+      "id": "bleu-opium",
+      "name": "1T OPIUM",
+      "wikiId": "OPIUM",
+      "category": "DROGUES",
+      "price": 259,
+      "metal": "bleu"
+    },
+    {
+      "id": "bleu-weapon_snspico",
+      "name": "SNS PICO",
+      "wikiId": "WEAPON_SNSPICO",
+      "category": "ARMES",
+      "price": 150,
+      "metal": "bleu"
+    },
+    {
+      "id": "bleu-weapon_p88",
+      "name": "PISTOLET COMPACT ( P88 )",
+      "wikiId": "WEAPON_P88",
+      "category": "ARMES",
+      "price": 250,
+      "metal": "bleu"
+    },
+    {
+      "id": "bleu-weapon_colt",
+      "name": "PISTOLET ( Colt )",
+      "wikiId": "WEAPON_COLT",
+      "category": "ARMES",
+      "price": 200,
+      "metal": "bleu"
+    }
+  ]
+}
